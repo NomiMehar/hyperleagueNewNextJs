@@ -1,0 +1,32 @@
+[
+  {
+    "bigSlideImage": "/assets/videos/cyrus.mp4",
+    "smallSlideImage": "/assets/images/slide-img1.jpg",
+    "slideTime": "100 H",
+    "slideViews": "17,512"
+  },
+  {
+    "bigSlideImage": "/assets/videos/destroyer.mp4",
+    "smallSlideImage": "/assets/images/slide-img2.jpg",
+    "slideTime": "100 H",
+    "slideViews": "17,512"
+  },
+  {
+    "bigSlideImage": "/assets/videos/greacer.mp4",
+    "smallSlideImage": "/assets/images/slide-img3.jpg",
+    "slideTime": "100 H",
+    "slideViews": "17,512"
+  },
+  {
+    "bigSlideImage": "/assets/videos/neoncity.mp4",
+    "smallSlideImage": "/assets/images/slide-img4.jpg",
+    "slideTime": "100 H",
+    "slideViews": "17,512"
+  },
+  {
+    "bigSlideImage": "/assets/videos/burner.mp4",
+    "smallSlideImage": "/assets/images/slide-img5.jpg",
+    "slideTime": "100 H",
+    "slideViews": "17,512"
+  }
+]

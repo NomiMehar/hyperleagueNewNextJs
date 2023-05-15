@@ -1,0 +1,105 @@
+@import "../../styles/variables";
+.modal_wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 999999;
+  padding: 0 10px;
+  background: rgba(0,0,0,0.8);
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  .modal_dialog {
+    position: relative;
+    min-height: calc(100% - (1.75rem * 2));
+    max-width: 1141px;
+    margin: 50px auto;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    .modal_content{
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      width: 100%;
+      pointer-events: auto;
+      border: none;
+      border-radius: 0;
+      background-clip: padding-box;
+      background: transparent;
+      outline: 0;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        width: 1303px;
+        height: 870px;
+        background: url('../../public/assets/images/extra-bg.png');
+        background-size: 100% 100%;
+        border-radius: 42px;
+        @media (max-width: $breakpoint_mobile_portrait) {
+          height: 790px;
+        }
+      }
+      .crossIcon {
+        cursor: pointer;
+        position: absolute;
+        right: -33px;
+        top: -33px;
+        width: 66px;
+        height: 66px;
+        z-index: 1;
+        @media (max-width: $breakpoint_mobile_portrait) {
+          right: -4px;
+        }
+      }
+      .modal_body {
+        flex: 1 1 auto;
+        padding: 60px 105px;
+        position: relative;
+        @media (max-width: $breakpoint_mobile_portrait) {
+          padding: 40px 20px;
+        }
+        .partner_form {
+          h2 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 68px;
+            margin: 0 0 70px;
+            @media (max-width: $breakpoint_mobile_portrait) {
+              font-size: 26px;
+              margin: 0 0 29px;
+            }
+            span {
+              color: #FFD60C;
+            }
+          }
+          ul {
+            margin: 0 -20px;
+            li {
+              width: 50%;
+              padding: 0 20px;
+              margin-bottom: 30px;
+              &:last-child { margin-top: 20px; display: flex}
+              @media (max-width: $breakpoint_mobile_portrait) {
+                width: 100%;
+                margin-bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

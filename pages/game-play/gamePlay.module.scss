@@ -1,0 +1,133 @@
+@import "../../styles/variables.scss";
+.game_play {
+  background: url("../../public/assets/images/gamePlay.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  padding: 110px 0 0;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 70px 0 0;
+  }
+  .main_title {
+    @media (max-width: $breakpoint_laptop) {
+      margin-bottom: 20px;
+    }
+  }
+  & > div {
+    z-index: 9;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 122px;
+    background: linear-gradient(180deg, #0D0014 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -47px;
+    width: 100%;
+    height: 122px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0016 100%);
+    transform: rotate(180deg);
+    z-index: 2;
+  }
+  .game_play_extra {
+    @media (max-width: $breakpoint_mobile_portrait) {
+      flex-direction: column-reverse;
+    }
+    .video_wrap {
+      width: 100%;
+      max-width: 1141px;
+      border-radius: 41px;
+      overflow: hidden;
+      position: relative;
+      clip-path: polygon(11.5% 0, 100% 0, 100% 0, 100% 85%, 88% 100%, 0 100%, 0 100%, 0% 16%);
+      @media (max-width: $breakpoint_laptop) {
+        max-width: 700px;
+      }
+      button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        padding: 0;
+        background: transparent;
+        z-index: 1;
+        cursor: pointer;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          border: 1px solid #ffffff;
+          width: 87px;
+          height: 87px;
+          transform: translate(-50%, -50%);
+          border-radius: 100%;
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          border: 1px solid #ffffff;
+          width: 109px;
+          height: 109px;
+          transform: translate(-50%, -50%);
+          border-radius: 100%;
+        }
+      }
+      .app_video {
+        height: 684px;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        @media (max-width: $breakpoint_laptop) {
+          height: 400px;
+        }
+      }
+    }
+    .avatar_wrap {
+      width: 317px;
+      margin-left: auto;
+      @media (max-width: $breakpoint_laptop) {
+        margin: 0 auto;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        width: auto;
+      }
+      figure {
+        margin: 0;
+        position: relative;
+        @media (max-width: $breakpoint_laptop) {
+          img {
+            max-width: 290px;
+            height: auto;
+          }
+        }
+        //&:before {
+        //  content: '';
+        //  z-index: 1;
+        //  position: absolute;
+        //  left: 0;
+        //  top: 0;
+        //  width: 293px;
+        //  height: 124px;
+        //  background: url("../../public/assets/images/subtract.png") no-repeat center;
+        //  background-size: 100% 100%;
+        //  @media (max-width: $breakpoint_laptop) {
+        //    width: 175px;
+        //    height: 74px;
+        //  }
+        //}
+      }
+    }
+  }
+}

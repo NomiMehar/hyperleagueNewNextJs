@@ -1,0 +1,87 @@
+@import "../../styles/variables.scss";
+.our_auditors {
+  padding: 100px 0 0;
+  position: relative;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 50px 0 0;
+  }
+  & > div {
+    position: relative;
+    z-index: 1;
+    @media (max-width: $breakpoint_mobile_portrait) {
+      flex-direction: column;
+    }
+  }
+  .main_title {
+    margin: 0;
+    @media (max-width: $breakpoint_mobile_portrait) {
+      margin: 0 0 50px;
+    }
+    h2 {
+      text-align: left;
+      @media (max-width: $breakpoint_mobile_portrait) {
+        text-align: center;
+      }
+      small {
+        display: flex;
+        align-items: center;
+        @media (max-width: $breakpoint_mobile_portrait) {
+          justify-content: center;
+        }
+        img {
+          margin-left: 27px;
+          max-width: 668px;
+          transform: scale(1);
+          @media (max-width: $breakpoint_laptop) {
+            max-width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .auditors_list {
+    max-width: 750px;
+    margin-left: auto;
+    ul {
+      margin: 0 -67px;
+      @media (max-width: $breakpoint_tablet) {
+        margin: 0 -15px;
+      }
+      li {
+        padding: 0 67px;
+        position: relative;
+        @media (max-width: $breakpoint_laptop) {
+          img {
+            width: 230px;
+            height: auto;
+          }
+        }
+        @media (max-width: $breakpoint_tablet) {
+          padding: 0 15px;
+          img {
+            width: 230px;
+            height: auto;
+            max-width: 100%;
+          }
+        }
+        &:last-child {
+          &:before { content: none}
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          right: -5px;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 245px;
+          width: 5px;
+          background: url("../../public/assets/images/line.svg");
+          @media (max-width: $breakpoint_tablet) {
+            height: 130px;
+            background-size: 100% 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "title": "1st Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse Base",
+        "list": [
+          "Idea "
+        ]
+      },
+      {
+        "listTile": "Blockout",
+        "list": [
+          "Concept art and referencese"
+        ]
+      },
+      {
+        "listTile": "Web",
+        "list": [
+          "Website Layout"
+        ]
+      },
+      {
+        "listTile": "Technology",
+        "list": [
+          "Unity Engine, Blockchain"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "2Nd Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse Base",
+        "list": [
+          "2D Concepts Conversions"
+        ]
+      },
+      {
+        "listTile": "Hyper League",
+        "list": [
+          "Hyper league Tracks and Vehicles concepts"
+        ]
+      },
+      {
+        "listTile": "Web",
+        "list": [
+          "Website UX/UI Design",
+          "Front - End"
+        ]
+      },
+      {
+        "listTile": "Unity Engine",
+        "list": [
+          "Pipeline Setup",
+          "Hyper League Track Blocking Stage"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "3rd Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse Base",
+        "list": [
+          "Mobile Device"
+        ]
+      },
+      {
+        "listTile": "Hyper League Lands",
+        "list": [
+          "Track 01 (Sci-Fi City)",
+          "Controller Development for Vehicles",
+          "AI vehicles for racing",
+          "UI Integration"
+        ]
+      },
+      {
+        "listTile": "Blockchain",
+        "list": [
+          "Meta mask Integration",
+          "Web 3.0 Development",
+          "Tokenomics"
+        ]
+      },
+      {
+        "listTile": "AI",
+        "list": [
+          "NPC GUIDEs",
+          "NPC Companions",
+          "AI Powered Vehicles for competitive racing"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "4TH Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse Base",
+        "list": [
+          "Mobile Device",
+          "Basic VR demo"
+        ]
+      },
+      {
+        "listTile": "Characters",
+        "list": [
+          "Characters Design",
+          "Character 3d Models",
+          "Rig and Skinned Characters",
+          "Character Variations"
+        ]
+      },
+      {
+        "listTile": "Hyper League",
+        "list": [
+          "Track 02, 03, 04, 05 Integration",
+          "Game Modes",
+          "Play to earn module",
+          "metaverse Integration"
+        ]
+      },
+      {
+        "listTile": "Blockchain",
+        "list": [
+          "NFT Marketplace Development",
+          "Token Vesting",
+          "NFT Air Drop",
+          "blockchain integration with unity engine"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "5th Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse",
+        "list": [
+          "PC Mid End Devices"
+        ]
+      },
+      {
+        "listTile": "Characters",
+        "list": [
+          "Create your own characters"
+        ]
+      },
+      {
+        "listTile": "Customizations",
+        "list": [
+          "Create your own customizations"
+        ]
+      },
+      {
+        "listTile": "Lands",
+        "list": [
+          "Events, Worlds, LIVE Events"
+        ]
+      },
+      {
+        "listTile": "Social Networks",
+        "list": [
+          "Social Place for each individual to showcase\nmemories [PICS/POSTS/Threads] in metaverse"
+        ]
+      },
+      {
+        "listTile": "AI Companions",
+        "list": [
+          "Virtual GFs"
+        ]
+      },
+      {
+        "listTile": "Games:",
+        "list": [
+          "Hyper league 5 tracks, 5 vehicles, P2P race\nmode and custom AI Racing rooms availability."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "6th Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse",
+        "list": [
+          "Port to Mobile"
+        ]
+      },
+      {
+        "listTile": "Lands",
+        "list": [
+          "Parties",
+          "Rent a Place",
+          "Branding/Exhibitions"
+        ]
+      },
+      {
+        "listTile": "Shopping Ecommerce [Virtual Shopping]",
+        "list": [
+          "Clothing",
+          "Footwear"
+        ]
+      },
+      {
+        "listTile": "AI Companions",
+        "list": [
+          "Virtual Dating",
+          "Match Making and Blind Dates"
+        ]
+      },
+      {
+        "listTile": "Game:",
+        "list": [
+          "Hyper League, 5 Tracks more, 3 Premium vehicles,\n     Vehicle customization with support packages \n     40 support packages."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "7th Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse",
+        "list": [
+          "Port to Quest VR"
+        ]
+      },
+      {
+        "listTile": "Lands",
+        "list": [
+          "Real time Exhibitions synced with real \ntime events",
+          "Cricket/Football/Soccer and other sports \nmatches Live collaboration.",
+          "eSports Events with proper IESP rules \nin metaverse."
+        ]
+      },
+      {
+        "listTile": "Social Networks",
+        "list": [
+          "Auto NFTs from selected memories of social \nplatform, opportunity to make money,"
+        ]
+      },
+      {
+        "listTile": "Games Integration",
+        "list": [
+          "Board Game",
+          "TCG Game",
+          "Arcade Shooting Game"
+        ]
+      },
+      {
+        "listTile": "Education",
+        "list": [
+          "Learning classes for kids",
+          "Tech classes",
+          "Multiple categories for learning"
+        ]
+      },
+      {
+        "listTile": "Shopping Ecommerce",
+        "list": [
+          "Groceries",
+          "Appliances",
+          "Tech/Mobiles",
+          "PCs"
+        ]
+      },
+      {
+        "listTile": "AI:",
+        "list": [
+          "Virtual Marriages, Virtual Guides. P2P Marriages."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "8TH Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse",
+        "list": [
+          "Port to Vive VR"
+        ]
+      },
+      {
+        "listTile": "Lands",
+        "list": [
+          "Rent a Place Enhanced",
+          "Land Builder",
+          "User Base Land Building/Selling/Renting"
+        ]
+      },
+      {
+        "listTile": "Social Networks",
+        "list": [
+          "Import Your Social Media FB/Twitter/IG in your\n     metaverse space Your Moment on your \n     Metaverse Timeline"
+        ]
+      },
+      {
+        "listTile": "Games Integration",
+        "list": [
+          "Leaderboard integration",
+          "Play to earn modules"
+        ]
+      },
+      {
+        "listTile": "Education",
+        "list": [
+          "Art Museum",
+          "Festivals",
+          "Theaters"
+        ]
+      },
+      {
+        "listTile": "Shopping Ecommerce",
+        "list": [
+          "Buy with Crypto and goods will be delivered\n     to your doorstep module"
+        ]
+      },
+      {
+        "listTile": "AI:",
+        "list": [
+          "Life Simulator"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "9th Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse",
+        "list": [
+          "Builder Enhancements Sandbox",
+          "Build your own game"
+        ]
+      },
+      {
+        "listTile": "Game:",
+        "list": [
+          "Port to AR",
+          "Markerless AR. Play games on Flat surface,\n     view vehicles and characters in AR space and\n     take selfies with your Fav avatar or vehicle\n     and post it on SM."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "10TH Sprint [6 Months]",
+    "listDes": [
+      {
+        "listTile": "Metaverse",
+        "list": [
+          "Build your own game Enhancements",
+          "Virtual Life Simulator"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,105 @@
+.footer_wrap:before {
+    animation: moveBGImage 20s linear infinite;
+}
+@keyframes moveBGImage {
+    from { background-position: 0}
+    to {background-position: 1728px}
+}
+.avatar_wrap figure:before {
+    animation: moveImage 5s linear infinite;
+}
+@keyframes moveImage {
+    0% { top: 170px}
+    50% {top: 345px}
+    100% {top:170px}
+}
+.avatar_wrap figure img,
+.avatar_img img,
+.powered_img_wrapper img {
+    animation: moveUpImage 2s linear infinite;
+}
+@keyframes moveUpImage {
+    0% { transform: translateY(0px)}
+    50% {transform: translateY(10px)}
+    100% {transform: translateY(0px)}
+}
+
+.simple-btn:hover img {
+    animation: moveBounce 1s linear infinite;
+}
+@keyframes moveBounce {
+    0% { transform: translateX(0px)}
+    50% {transform: translateX(10px)}
+    100% {transform: translateX(0px)}
+}
+.back_top img {
+    animation: moveBounce2 1s linear infinite;
+}
+@keyframes moveBounce2 {
+    0% { transform: translateY(-3px) rotate(-90deg)}
+    50% {transform: translateY(7px) rotate(-90deg)}
+    100% {transform: translateY(-3px) rotate(-90deg)}
+}
+.explore-btn:before {
+    animation: moveBottom 2s linear infinite;
+}
+@keyframes moveBottom {
+    0% {
+        top: 0;
+        transform: translateX(-50%) scale(0.7);
+    }
+    50% {
+        top: 16px;
+        transform: translateX(-50%) scale(1);
+    }
+}
+.explore-btn:after {
+    animation: moveTop 2s linear infinite;
+}
+@keyframes moveTop {
+    0% {
+        top: 16px;
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        top: 0;
+        transform: translateX(-50%) scale(0.7);
+    }
+}
+.circle_wrapper:before,
+.circle_wrapper:after {
+    animation: moveRound1 8s linear infinite;
+}
+.social_list:before,
+.social_list:after { animation: moveRound1 10s linear infinite;}
+@keyframes moveRound1 {
+    0% { transform: translateX(-50%) rotate(0);}
+}
+.playbtn:before {
+    animation: pulse-border 1500ms ease-out infinite;
+}
+.playbtn:after {
+    animation: pulse-border 2000ms ease-out infinite;
+}
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+.loader {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,167 @@
+@import "../../styles/variables.scss";
+.featured_nfts_wrapper {
+  position: relative;
+  & > figure {
+    margin: 0;
+    width: 100%;
+    @media (max-width: $breakpoint_laptop) {
+      img { height: auto; max-width: 80%;}
+    }
+    &.right_align {
+      text-align: right;
+      img {
+        transform: scale(-1);
+      }
+    }
+  }
+  .featured_nfts_text {
+    background: #000000;
+    padding: 100px 0;
+    @media (max-width: $breakpoint_tablet) {
+      padding: 50px 0;
+    }
+    position: relative;
+    & > div {
+      z-index: 1;
+      position: relative;
+    }
+    .layer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #000000;
+      mix-blend-mode: hard-light;
+      opacity: 0.5;
+      z-index: 1;
+      pointer-events: none;
+    }
+    .slide_bg_video {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 149px;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #180A20 100%);
+      transform: rotate(180deg);
+      z-index: 2;
+      pointer-events: none;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 149px;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #180A20 100%);
+      z-index: 1;
+      pointer-events: none;
+    }
+    .featured_nfts_slider {
+      width: 100%;
+      display: inline-block;
+      .featured_nfts_left {
+        max-width: 622px;
+        width: 100%;
+        float: left;
+        @media (max-width: $breakpoint_laptop) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+        }
+      }
+      .featured_nfts_right {
+        width: 59.1%;
+        float: right;
+        @media (max-width: $breakpoint_laptop) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+        }
+      }
+      .featured_nfts_slider_content {
+        .big_slide {
+          height: 404px;
+          border-radius: 10px;
+          @media (max-width: $breakpoint_laptop) {
+            height: 325px;
+          }
+          overflow: hidden;
+          position: relative;
+          clip-path: polygon(11.5% 0, 100% 0, 100% 0, 100% 85%, 88% 100%, 0 100%, 0 100%, 0% 16%);
+          & > span {
+            position: absolute;
+            right: -100%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 181px;
+            height: 162px;
+            transition: all 0.6s ease-in-out;
+            background: #180A20;
+            border-radius: 80px 0 0 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+              line-height: 1.1;
+              width: 113px;
+              height: 113px;
+              border: 1px solid #FFFFFF;
+              border-radius: 100%;
+              font-size: 20px;
+              text-align: center;
+              small {
+                font-size: 14px;
+              }
+            }
+          }
+          .slide_video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .small_slide {
+          padding-left: 60px;
+          @media (max-width: $breakpoint_laptop) {
+            padding-left: 40px;
+            padding-right: 10px;
+          }
+          @media (max-width: $breakpoint_mobile_portrait) {
+            padding: 0 10px;
+          }
+          figure {
+            margin: 0;
+            text-align: center;
+            cursor: pointer;
+            & > img {
+              border-radius: 10px;
+              border: 1px solid #FFFFFF;
+              margin: 0 0 32px;
+              overflow: hidden;
+              width: 100%;
+              height: unset;
+            }
+            figcaption {
+              color: #D7D7D7;
+              img { margin-right: 12px;}
+            }
+          }
+        }
+      }
+    }
+  }
+}
